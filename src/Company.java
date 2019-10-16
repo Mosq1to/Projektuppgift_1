@@ -6,12 +6,15 @@ import java.util.Scanner;
  */
 
 /**
+ *
+ * This program is created to Add/edit and remove employees in an company
  * @author MSINGH2
  *
  */
 public class Company {
 
 	/**
+	 * Main method where to select choice
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -59,8 +62,10 @@ public class Company {
 		}
 
 	}
-	
-	
+
+	/**
+	 * Method to show all the actions
+	 */
 	public static void showActions(){
 	
 		System.out.println("Välj ett av Alternativen:");

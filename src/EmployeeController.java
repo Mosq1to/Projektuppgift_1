@@ -3,6 +3,9 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * Controller class to add,edit and remove objects
+ */
 public class EmployeeController {
     private ArrayList<whiteCollor> list = new ArrayList<whiteCollor>();
 
@@ -11,6 +14,9 @@ public class EmployeeController {
         this.list = new ArrayList<whiteCollor>();
     }
 
+    /**
+     * Method to create a whitecollor employee
+     */
     public void addWhiteCollor(){
         Scanner scan = new Scanner(System.in);
         System.out.println("Anställningsnr :");
@@ -48,6 +54,9 @@ public class EmployeeController {
 
     }
 
+    /**
+     *Method to edit a existing employee
+     */
     public void editEmployee() {
         System.out.println("Vem vill du uppdatera?");
         Scanner scan = new Scanner(System.in);
@@ -131,6 +140,11 @@ public class EmployeeController {
 
 
     }
+
+    /**
+     * Method to remove a existing employee
+     */
+
     public void removeEmployee(){
         showAllEmployee();
         System.out.println("Skriv in ID på personen du vill ta bort");
@@ -147,6 +161,10 @@ public class EmployeeController {
          }
 
     }
+
+    /**
+     * Method to show all employees in a formated list
+     */
     public void showAllEmployee(){
 
         System.out.println("Alla anställda: ");
@@ -160,6 +178,12 @@ public class EmployeeController {
 
     }
 
+    /**
+     * Method to ittarate to the list array for a specific name
+     * @param name
+     * @return position of the specific name in the list if the name exist or -1 if its dosent exit
+     */
+
     public int ittarateName(String name) {
         for (int i=0;i<this.list.size();i++){
 
@@ -171,6 +195,11 @@ public class EmployeeController {
         return -1;
     }
 
+    /**
+     * Method to ittarate to the list array for a specific id
+     * @param Id
+     * @return position of the specific id in the list if the id exist or -1 if its dosent exit
+     */
     public int ittarateId(int Id) {
         for (int i=0;i<this.list.size();i++){
 
@@ -182,6 +211,11 @@ public class EmployeeController {
         return -1;
     }
 
+    /**
+     * Method to ittarate to the list array for a specific personalnr
+     * @param prsnr
+     * @return position of the specific personalnr in the list if the personalnr exist or -1 if its dosent exit
+     */
     public int ittaratePrsnr(String prsnr) {
         for (int i=0;i<this.list.size();i++){
 
@@ -192,8 +226,4 @@ public class EmployeeController {
         }
         return -1;
     }
-
-
-
-
 }
