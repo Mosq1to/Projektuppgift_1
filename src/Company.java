@@ -69,12 +69,12 @@ public class Company {
 	public static void showActions(){
 	
 		System.out.println("Välj ett av Alternativen:");
-		System.out.println("1. Lätt till anställd");
+		System.out.println("1. Lägg till anställd");
 		System.out.println("2. Editera anställd");
-		System.out.println("3. Remove anställd");
+		System.out.println("3. ta bort anställd");
 		System.out.println("4. Lista anställd");
-		System.out.println("5. Lista om Alternativen");
-		System.out.println("6. Stäng av programet");
+		System.out.println("5. Lista om alternativen");
+		System.out.println("6. Stäng av programmet");
 	}
 	
 
