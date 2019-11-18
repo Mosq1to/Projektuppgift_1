@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Seup_VOC_QA.iml" filepath="$PROJECT_DIR$/.idea/Seup_VOC_QA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seup_VOC_QA.iml" filepath="$PROJECT_DIR$/Seup_VOC_QA.iml" />
+    </modules>
+  </component>
+</project>
